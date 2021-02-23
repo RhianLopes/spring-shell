@@ -1,1 +1,3 @@
-
+spring-shell:
+  poke-api:
+    url: https://pokeapi.co/api/v2
