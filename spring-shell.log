@@ -9,3 +9,9 @@
 1614126147861:search-by-name --name "ditto"
 1614126156685:search-by-name --name "bulbasaur"
 1614126179648:search-by-name
+1614126280694:help
+1614126304308:list-pokemon
+1614126351379:search-by-name --name "weedle"
+1614127673377:help
+1614128762992:list-pokemon
+1614129007209:help

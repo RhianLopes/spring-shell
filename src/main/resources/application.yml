@@ -1,3 +1,7 @@
+spring:
+  banner:
+    location: classpath:/banner/bannername.txt
+
 spring-shell:
   poke-api:
     url: https://pokeapi.co/api/v2
