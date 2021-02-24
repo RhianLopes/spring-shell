@@ -1,14 +1,14 @@
 # spring-shell
 
-## Contexto
+## :cyclone: Contexto
 
 Este repositório tem como objetivo guardar e documentar o conhecimento adquirido ao pesquisar mais sobre [Spring Shell](https://spring.io/projects/spring-shell), inicialmente os conteúdos desse repositório serão apresentados nas reuniões de padrões internas do time no qual participo.
 
-## Introdução
+## :school_satchel: Introdução
 
 O [Spring Shell](https://spring.io/projects/spring-shell) permite que possamos criar comandos de uma maneira super simples e descomplicada, esses mesmos comandos podem ser chamados via linha de comando pelo terminal. Toda a configuração para que isso aconteça, é muito simples e orientada a anotações, para saber mais e criar seu projeto, siga os passos abaixo.
 
-## Criando seu projeto com Spring Shell
+## :mag_right: Criando seu projeto com Spring Shell
 
 Para criar seu primeiro projeto utilizando Spring Shell, você pode criar um simples projeto via [Spring Initializr](https://start.spring.io/) ou utilizar algum projeto Spring já existente.
 
@@ -33,7 +33,7 @@ Como mostra a imagem abaixo:
 
 Os comandos listados após rodar `help`, são alguns comandos que vêm por padrão com o [Spring Shell](https://spring.io/projects/spring-shell), logo você acaba de criar sua primeira aplicação utilizando [Spring Shell](https://spring.io/projects/spring-shell) :grin:!!!
 
-## Aprofundando um pouco em Spring Shell
+## :chart_with_upwards_trend: Aprofundando um pouco em Spring Shell
 
 Com sua aplicação já criada, podemos dar inicio a criação de nosso primeiro comando costumizado, para isso vamos criar uma pasta chamada `commands` e dentro da mesma criar uma classe java, chamada `PokemonCommands`.
 
@@ -70,6 +70,6 @@ Com isso já podemos ver nosso grupo de comandos `Pokemon` e nosso comando `list
 
 Com isso, criamos nosso primeiro comando com Spring Shell!!, agora você pode fazer seus testes e evoluir sua aplicação. Neste mesmo repositório, você pode conferir o projeto criado para criar esse passo a passo, o mesmo já está um pouco mais evoluido contendo 3 métodos shell onde para buscar os dados do mesmos é consumida a [PokeApi](https://pokeapi.co/).
 
-## Conclusão
+## :scissors: Conclusão
 
 Fiquei impressionado com o [Spring Shell](https://spring.io/projects/spring-shell), pela sua simplicidade e ótima orientação a interfaces, em poucos minutos você pode adiciona-lo em seu projeto, sendo uma ótima opção para quem necessidade de uma solução que utilize comandos shell.
