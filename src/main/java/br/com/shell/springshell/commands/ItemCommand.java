@@ -1,20 +1,20 @@
 package br.com.shell.springshell.commands;
 
-import br.com.shell.springshell.service.pokemon.PokemonService;
+import br.com.shell.springshell.service.item.ItemService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.shell.standard.ShellCommandGroup;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
 
 @ShellComponent
-@ShellCommandGroup("Pokemon")
+@ShellCommandGroup("Item")
 @RequiredArgsConstructor
-public class PokemonCommand {
+public class ItemCommand {
 
-    private final PokemonService pokemonService;
+    private final ItemService itemService;
 
-    @ShellMethod("List pokemon")
-    public String listPokemon() {
-        return pokemonService.list();
+    @ShellMethod("List items")
+    public String listItems() {
+        return itemService.list();
     }
 }

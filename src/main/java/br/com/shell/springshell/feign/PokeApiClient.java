@@ -1,5 +1,6 @@
 package br.com.shell.springshell.feign;
 
+import br.com.shell.springshell.dto.ListItemResponseDto;
 import br.com.shell.springshell.dto.ListPokemonResponseDto;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,5 +10,8 @@ public interface PokeApiClient {
 
     @GetMapping("/pokemon")
     ListPokemonResponseDto listPokemon();
+
+    @GetMapping("/item")
+    ListItemResponseDto listItem();
 
 }
