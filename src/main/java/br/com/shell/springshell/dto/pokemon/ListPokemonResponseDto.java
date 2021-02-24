@@ -1,4 +1,4 @@
-package br.com.shell.springshell.dto;
+package br.com.shell.springshell.dto.pokemon;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,15 +11,15 @@ import java.util.List;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ListItemResponseDto {
+public class ListPokemonResponseDto {
 
-    private List<ListItemResultResponseDto> results;
+    private List<ListPokemonResultResponseDto> results;
 
     @Data
     @Builder
     @NoArgsConstructor
     @AllArgsConstructor
-    public static class ListItemResultResponseDto {
+    public static class ListPokemonResultResponseDto {
 
         private String name;
 

@@ -1,6 +1,6 @@
 package br.com.shell.springshell.service.item;
 
-import br.com.shell.springshell.dto.ListItemResponseDto;
+import br.com.shell.springshell.dto.item.ListItemResponseDto;
 import br.com.shell.springshell.feign.PokeApiClient;
 import br.com.shell.springshell.helper.JsonHelper;
 import lombok.RequiredArgsConstructor;

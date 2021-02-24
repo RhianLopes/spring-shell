@@ -5,3 +5,7 @@
 1614125347395:help
 1614125358280:list-items
 1614125369366:list-pokemon
+1614126130434:help
+1614126147861:search-by-name --name "ditto"
+1614126156685:search-by-name --name "bulbasaur"
+1614126179648:search-by-name
